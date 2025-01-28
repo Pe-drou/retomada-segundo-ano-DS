@@ -8,6 +8,46 @@
 body{
     background-color: #6C6C6C;
 }
+div{
+    width: 40vw;
+    margin: 1vw 30vw;
+    height: 500px;
+    background-color: #555;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    display: flex;
+    height: 200px;
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+form label{
+    font-size: 24px;
+    color: #FF5E5E;
+}
+form input{
+    width: 100%;
+    height: 30px;
+    font-size: 25px;
+    background-color: #C0CEFF;
+    border: 2px solid #000;
+    border-radius: 5px;
+}
+form button{
+    background-color: #FF5E5E;
+    color: #333;
+    width: 150px;
+    height: 50px;
+    border: 2px solid #000;
+    border-radius: 20px;
+    font-size: 30px;
+    margin-top: 20px;
+}
 nav{
     display: flex;
     position: sticky;
@@ -46,8 +86,9 @@ header{
     background-color: #555;
     border-bottom: dashed 5px #222;
 }
-header h1{
+h1{
     font-size: 50px;
+    text-align: center;
     color: #FFF;
 }
 header img{
